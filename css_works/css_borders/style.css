@@ -1,0 +1,11 @@
+.border{
+    border: 2px solid red;
+}
+.text-success{
+    color: green;
+}
+.border-warning{
+    border-width: 3px;
+    border-style: dotted;
+    border-color: yellow;
+}

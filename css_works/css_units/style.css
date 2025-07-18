@@ -1,0 +1,43 @@
+.parent{
+    border:2px solid red;
+    width:600px;
+    height:500px;
+    background-color: antiquewhite;
+    color: black;
+}
+
+.child{
+    border:2px solid red;
+    width:400px;
+    height: 350px;
+    background-color:aqua;
+   
+}
+
+.container{
+    border: 2px solid black;
+    width: 80%;
+    height: 200px;
+    background-color: rgb(195, 158, 104);
+    
+}
+.row{
+     border: 2px solid black;
+    width: 50%;
+    height: 150pxpx;
+    background-color: rgb(173, 156, 161);
+    color: blue;
+}
+
+.box{
+    border: 2px solid black;
+    width: 400px;
+    height: 400px;
+    background-color: rgb(137, 19, 55);
+   
+}
+.box>img{
+    width: 75%;
+    height:400px;
+}
+    

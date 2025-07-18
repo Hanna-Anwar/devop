@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <!-- custom link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!-- Fontawsome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body style="background-color: beige;">
+    <div class="main-container mx-auto">
+        <!-- navbar -->
+        <div class="nav mx-auto mt-5 ">
+            <div class="settings icon-box mt-3 ms-2 ">
+                <i class="fa-solid fa-gear"></i>
+                <span>settings</span>
+            </div>
+            <div class="account icon-box  mt-3 ms-2 ">
+                <i class="fa-solid fa-circle-user"></i>
+                <span>Account</span>
+            </div>
+            <div class="msg icon-box mt-3 ms-2 ">
+                <i class="fa-solid fa-message"></i>
+                <span>message <sup class="msg-circle text-light bg-danger w-25%"><small>1</small></sup></span>
+            </div>
+            <div class="fav icon-box mt-3 ms-2">
+                <i class="fa-regular fa-star"></i>
+                <span>favorites</span>
+            </div>
+            <div class="me icon-box mt-3">
+
+                <select name="" id="" style="background-color: rgb(5,5,76);">
+                    <option value="">Me</option>
+                </select>
+                <img src="./undraw_cool-girl-avatar_fifz.png" alt="">
+            </div>
+        </div>
+
+
+        <!-- sub container -->
+        <div class="sub-container mx-auto mt-3">
+            <!-- left-box -->
+            <div class="child1 mt-3 ">
+                <!-- menubox -->
+                <div class="menu-box w-50% h-50 ">
+
+                    <div class="nav-bar w-50% h-25 ">
+                        <p class="text-center text-light fs-3 fw-bold">MENU BOX</p>
+                    </div>
+
+                    <div class="inbox w-50% h-25 border fw-bold border-2 border-dark">
+                        <div class="icon-box mt-2">
+                            <i class="fa-solid fa-message fa-1x"></i>
+                        </div>
+                        <div class="text">
+                            <p>Messages</p>
+                        </div>
+                        <div class="count">
+
+                            <h6 class="text-body-secondary">11</h4>
+                        </div>
+                    </div>
+
+                    <div class="invites w-50% h-25 border fw-bold border-2 border-dark ">
+                        <div class="icon-box mt-2">
+                            <i class="fa-brands fa-facebook-messenger"></i>
+                        </div>
+                        <div class="text">
+                            <p>Invites</p>
+                        </div>
+                        <div class="count">
+
+                            <h6 class="text-body-secondary">3</h4>
+                        </div>
+                    </div>
+
+                    <div class="events w-50% h-25 border fw-bold border-2 border-dark ">
+                        <div class="icon-box mt-2">
+                            <i class="fa-solid fa-calendar-days"></i>
+                        </div>
+                        <div class="text">
+                            <p>Events</p>
+                        </div>
+
+                    </div>
+
+                    <div class="acc-setting w-50% h-25 border fw-bold border-2 border-dark ">
+                        <div class="icon-box mt-2">
+                            <i class="fa-solid fa-gear"></i>
+                        </div>
+                        <div class="text">
+                            <p>Account Setting</p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <div class="audience-stat">
+                    <h4 class="fw-bold text-center text-light mt-3">AUDIENCE STATS</h3>
+                        <div class="aud-circle mx-auto ">
+                            <p class="text-center fw-bold mt-3 text-light">JUNE <br> 2025</p>
+
+                        </div>
+                </div>
+
+            </div>
+
+            <!-- center box -->
+
+            <div class="child2 mt-3">
+                <div class="profile ">
+                    <img src="./undraw_cool-girl-avatar_fifz.png" alt="">
+                    <div>
+                        <h3 class="text-center text-light">ZEYNAB YILMIZ</h3>
+                        <p class="text-center text-light">Famous social Media influencer</p>
+                    </div>
+                    <div class="icon-columns">
+                        <!-- <div class="boxes"> -->
+                        <div class="comment boxes  border-danger border-top border-3 text-light ">
+                            <div class="icon ms-4 mt-2">
+                                <i class="fa-solid fa-comment"></i>
+                                <span class="small">69</span>
+
+                            </div>
+                        </div>
+
+                        <div class="seen boxes  border-primary border-top border-3 text-light">
+                            <div class="icon ms-4 mt-2">
+                                <i class="fa-regular fa-eye"></i>
+                                <span class="small">845</span>
+                            </div>
+                        </div>
+                        <div class="like boxes  border-success border-top border-3 text-light">
+                            <div class="icon ms-4 mt-2">
+                                <i class="fa-regular fa-heart"></i>
+                                <span class="small">839</span>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+                <!-- location and weather -->
+                <div class="location-weather">
+                    <div class="location w-100% h-25 border border-danger bg-danger">
+                        <div class="loc-icon ms-4 mt-2 text-center text-light ">
+                            <i class="fa-solid fa-location-dot fa-1x"></i>
+                            <span class="fw-bolder">Kochi,Kakkanad</span>
+                        </div>
+                    </div>
+
+                    <!-- weather -->
+                    <div class="location w-100% h-75 border border-danger bg-primary">
+                        <div class="loc-icon ms-2 mt-3 text-center text-light ">
+
+                            <i class="fa-solid fa-cloud fa-4x"></i>
+
+                            <span class="fw-bolder ">Wed 9/25</span>
+                            <p class="text-start fs-2 fw-bold">23<sup>o</sup>C</p>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- right box -->
+
+            <div class="child3 mt-3">
+
+                <div class="news">
+                    <h4 class="text-light text-center mt-2">Join the Newsletter</h4>
+                    <div class="mail-box mt-4">
+
+                        <span class="ms-4 text-light text-center text-body-secondary fw-normal"> <i class="fa-regular fa-envelope"></i>
+                           <small>zeynabyilmiz@gmail.com</small> </span>
+
+
+                    </div>
+                    <div class="btn mt-3">
+                        <button style="background-color: rgb(128,128,227);margin-left: 120px;">Subscribe</button>
+                    </div>
+                </div>
+
+                <div class="sign-form">
+
+                    <h4 class="text-light text-center mt-2">Sign in to your account</h4>
+                    <div class="mail-box mt-4">
+
+                        <span class="ms-4 text-light text-center "> <i class="fa-regular fa-envelope"></i>
+                       <small class="text-body-secondary">Enter email</small> </span>
+                    </div>
+                    <div class="password mt-4">
+
+                        <span class="ms-4 text-light text-center"> <i class="fa-solid fa-lock"></i></i>
+                        <small class="text-body-secondary">Password</small></span>
+                    </div>
+                    <div class="btn mt-3">
+                        <button style="background-color: rgb(224, 76, 78);margin-left: 120px;">Subscribe</button>
+                    </div>
+                    <div class="text-center">
+                        <span class="text-light"><small>Forget Password?</small></span>
+                    </div>
+
+                    <div class="footer">
+                         <span class="ms-5 text-light text-center mx-auto">
+                        <i class="fa-brands fa-facebook"></i></span>
+                        <span class="text-center text-light" >Sign in with your Facebook</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

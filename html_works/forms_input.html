@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <!-- forms and input -->
+    <!-- uneditable text=label,input box=input type -->
+    <!-- props=height width,div,id -->
+    <form action="">
+        <h1>STUDENT LOGIN FORM</h1>
+        <div>
+            <label for="roll"><strong>roll no:</strong></label>
+            <input type="text" placeholder="enter roll no" id="roll">
+        </div>
+        <div>
+            <label for="f_name"><strong>Name:</strong></label>
+            <input type="text" placeholder="Firstname" id="f_name">
+            -
+            <input type="text" placeholder="Lastname" id="l_name">
+        </div>
+        <div>
+            <label for="father"><strong>Father's Name:</strong></label>
+            <input type="'text'" id="father">
+        </div>
+        <div>
+            <label for=""><strong>DOB:</strong></label>
+            <input type="date">
+        </div>
+        <div>
+            <label for="mob"><strong>Mobile no:</strong></label>
+            <input type="text" placeholder="+91" id="mob">
+            <input type="number">
+        </div>
+        <div>
+            <label for=""><strong>Email:</strong></label>
+            <input type="email">
+        </div>
+        <div>
+            <label for="pass"><strong>Password:</strong></label>
+            <input type="password" id="pass">
+        </div>
+        <div>
+            <label for=""><strong>Gender:</strong></label>
+            <input type="radio" name="gender" value="Male"><label for="">Male:</label>
+            <input type="radio" name="gender" value="Female"><label for="">Female</label>
+        </div>
+        <div>
+            <label for=""><strong>Department:</strong></label>
+            <input type="checkbox" value="cs"><label for="">CS</label>
+            <input type="checkbox" value="MCA"><label for="">MCA</label>
+            <input type="checkbox" value="EEE"><label for="">EEE</label>
+            <input type="checkbox" value="AI & DS"><label for="">AI & DS</label>
+
+        </div>
+        <div>
+            <label for=""><strong>Course:</strong></label>
+
+            <select name="" id="">
+                <option value="">-----select-----</option>
+                <option value="django">django</option>
+                <option value="MEARN">MEARN</option>
+                <option value="Testing">Testing</option>
+            </select>
+
+        </div>
+        <div>
+            <label for=""><strong>Upload Photo</strong></label>
+            <input type="file" accept="image/*">
+        </div>
+        <div>
+            <label for=""><strong>Address:</strong></label>
+            <textarea rows="5" cols="20"></textarea>
+        </div>
+        <button type="submit">Login</button>
+    </form>
+</body>
+
+</html>

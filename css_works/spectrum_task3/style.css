@@ -1,0 +1,59 @@
+
+.parent {
+    width: 70%;
+    height: 150px;
+    border: 2px solid black;
+}
+
+.row{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.child {
+    width: 12%;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.bg1 {background-color: grey;}
+.bg2 {background-color: rgb(100, 153, 100);}
+.bg3 {background-color: rgb(17, 91, 17);}
+.bg4 {background-color: rgb(14, 248, 14);}
+.bg5 {background-color: white;}
+.bg22 {background-color: rgb(141, 24, 24);}
+
+
+.child2{
+    width: 11%;
+    height: 100px;
+    border: 2px solid black;
+}
+
+
+.bg6 {background-color: orange;}
+.bg7 {background-color: rgb(11, 8, 215);}
+.bg8 {background-color: rgb(9, 107, 139);}
+.bg9 {background-color: rgb(127, 167, 77);}
+.bg10 {background-color: rgb(207, 228, 47);}
+.bg11 {background-color: rgb(155, 133, 148);}
+.bg12 {background-color: rgb(59, 51, 34);}
+
+.child3{
+    width: 10%;
+    height: 100px;
+    border: 2px solid black;
+}
+
+.bg13 {background-color: rgb(0, 255, 68);}
+.bg14 {background-color: rgb(22, 83, 113);}
+.bg15 {background-color: rgb(151, 157, 159);}
+.bg16 {background-color: rgb(9, 130, 200);}
+.bg17 {background-color: rgb(131, 17, 17);}
+.bg18 {background-color: rgb(155, 133, 148);}
+.bg19 {background-color: rgb(211, 63, 164);}
+.bg20 {background-color: rgb(59, 51, 34);}
+.bg21 {background-color: rgb(203, 151, 40);}
+

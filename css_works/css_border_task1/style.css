@@ -1,0 +1,24 @@
+.border-success {
+    border: 2px solid green;
+    background-color: blue;
+    color: white;
+}
+
+.border-primary {
+    border: 2px solid blue;
+    background-color: green;
+    color: aqua;
+}
+
+.border-dark {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.background {
+    background-color: black;
+
+
+}

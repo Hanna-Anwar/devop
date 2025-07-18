@@ -1,0 +1,38 @@
+/*ClassName*/
+.practice {
+    color: aquamarine;
+}
+
+.border {
+    border-width: 2px;
+    border-style: solid;
+    border-color: brown;
+}
+
+.primary {
+    color: blue;
+}
+
+
+
+/* tagname*/
+h1 {
+    color: chartreuse;
+}
+
+/* id */
+#head{
+    color: rebeccapurple;
+}
+.text-success{
+    color: green;
+}
+.text-orange{
+    color: orangered;
+}
+.text-purple{
+    color: purple;
+}
+.text-blue{
+    color: blue;
+}
