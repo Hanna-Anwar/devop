@@ -1,0 +1,13 @@
+
+
+num = int(input("enter a number :"))
+
+rem = num % 10
+
+if (rem % 2 == 0):
+
+    print("number is even")
+
+else:
+
+    print("number is odd")

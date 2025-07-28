@@ -1,0 +1,1 @@
+print("\nweb application development \nDatascience and analytics \nMachineLearning and artificial Intelligence \nInternet of Things")
