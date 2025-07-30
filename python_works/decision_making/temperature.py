@@ -1,4 +1,4 @@
-temperature = int(input("enter temperature :"))  24
+temperature = int(input("enter temperature :"))  #24
 
 if temperature <10:               #24 <10 false
 
