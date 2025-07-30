@@ -1,9 +1,8 @@
 
-
-
 # loop number !=0
 # step1 extract last_digit= number % 10
 # step2 floor_number =number // 10
+
 
 number = int(input("enter a number : ") ) #123
 
