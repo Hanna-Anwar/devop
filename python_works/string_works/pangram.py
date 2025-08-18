@@ -1,4 +1,4 @@
-#write a program to chk given string is pangram
+#write a program to chk given string is pangram a-z char should be their in the text
 
 
 text = "The quick brown fox jumps over the lazy dog" .casefold()
