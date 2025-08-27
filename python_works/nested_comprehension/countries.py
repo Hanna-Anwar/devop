@@ -20606,16 +20606,20 @@ def indian_border():
 # display the currency symbol of country named afghanisthan********************************
 
 
-# def currency_symbol(country_name):
+def currency_symbol(country_name):
     
-#    afghan_currency_list =[c.get("currencies") for c in countries if c.get("name").lower()==country_name.lower()]
+   country_data =[c for c in countries if c.get("name").lower()==country_name.lower()][0]
 
-#    print(afghan_currency_list)
+   if "currencies" in country_data:
+       
+       all_currency = country_data.get("currencies")
 
-#    return {s.get("symbol") for s in dict(afghan_currency_list) }
-
-# print(currency_symbol("Afghanistan"))
-
+       for cur in all_currency:
+           
+           print(cur.get("symbol"))
+       
+currency_symbol("India")
+   
 
 #display the native name of India******************************
 
@@ -20687,3 +20691,26 @@ def regional_block(country_name):
     return [c.get("regionalBlocs") for c in countries if c.get("name").lower()==country_name.lower()]
 
 # print(regional_block("afghanistan"))
+
+
+#Countries with language as english
+def country_with_eng_language:
+
+  for c in countries:
+    
+    if "languages" in  c:
+        
+        for lang in c.get("languages"):
+            
+            if lang.get("name").lower()=="english".lower():
+                
+                print(c.get("name"))
+            
+country_with_eng_language()
+            
+
+#currency with most number of border
+
+def get_all_country_borders():
+    
+    border_count = {for c in contries}
