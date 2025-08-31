@@ -38,3 +38,6 @@ print(full_time_job)
 kochi_located_company = [e.get("company-name") for e in emp_list if e.get("location").lower()=="kochi".lower()]
 
 print(kochi_located_company)
+
+
+#
