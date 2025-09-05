@@ -4,18 +4,18 @@ class Parent:
 
         print("car")
 
-    def bike(self):
+    def bikes(self):
 
         print("bike2")
 
 class child(Parent): #inheriting here
 
-    def bike(self):
+    def bikes(self):
 
         print("bike")
 
 child_instance = child()
 
-child_instance.bike()
+child_instance.bikes()
 
 child_instance.car()

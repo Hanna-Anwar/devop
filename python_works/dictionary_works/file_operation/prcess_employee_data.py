@@ -41,6 +41,13 @@ ekm_location = [e.get("name") for e in all_employee if e.get("location")== "ekm"
     
 print(ekm_location)
 
+# display the name and mail who come from ekm
+
+ekm_people = [(n.get("name"), n.get("mail")) for n in all_employee if n.get("location").lower()=="ekm"]#*********
+
+print(ekm_people)
+
+
 #print max salary
 
 max_salary = max(all_employee,key =lambda e:e.get("salary"))
