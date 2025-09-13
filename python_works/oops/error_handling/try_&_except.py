@@ -1,4 +1,5 @@
 num1 = int(input("enter num1 :"))
+
 num2 = int(input("enter num2 :"))
 
 
@@ -9,12 +10,18 @@ try:
     print("division = ",div_res)
 
 
-except:
+except Exception as e:
 
-    print("error occured")
+    num2 = int(input("enter a number2 that is not 0 :"))
+
+    div_res = num1/num2
+
+    print(div_res)
 
 
-print("send text messege to user mobile phone")
+finally:
 
-print("send email confirmation")
+    print("send text messege to user mobile phone")
+
+    print("send email confirmation")
 
